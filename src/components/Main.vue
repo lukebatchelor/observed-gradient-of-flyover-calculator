@@ -22,7 +22,8 @@
           <v-row>
             <v-col cols="6">
               <v-text-field
-                v-model.number="angleA1"
+                v-model="angleA1"
+                @change="angleA1 = Number(angleA1)"
                 label="Angle A₁"
                 type="number"
                 required

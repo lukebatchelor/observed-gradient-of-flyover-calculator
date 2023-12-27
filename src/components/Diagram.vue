@@ -33,6 +33,7 @@ onUpdated(() => {
 
 const drawDiagram1 = () => {
   const ctx = canvasEl.value.getContext("2d") as CanvasRenderingContext2D;
+  ctx.clearRect(0, 0, canvasEl.value.width, canvasEl.value.height);
   ctx.strokeStyle = "white";
   ctx.fillStyle = "white";
   const ptA: Point = { x: 320, y: 100 };
