@@ -105,6 +105,10 @@
 </template>
 
 <style>
+@font-face {
+  font-family: "Handwriting";
+  src: url("/GloriaHallelujah-Regular.ttf");
+}
 .handwriting {
   font-family: "Handwriting" !important;
 }

@@ -6,13 +6,6 @@
   </v-app>
 </template>
 
-<style scoped>
-@font-face {
-  font-family: "Handwriting";
-  src: url("GloriaHallelujah-Regular.ttf");
-}
-</style>
-
 <script setup lang="ts">
 import { ref, computed, onMounted } from "vue";
 import Main from "@/components/Main.vue";
