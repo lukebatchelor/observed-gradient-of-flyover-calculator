@@ -27,7 +27,8 @@
                 label="Angle A₁"
                 type="number"
                 required
-              ></v-text-field>
+              >
+              </v-text-field>
             </v-col>
             <v-col cols="6">
               <v-text-field
@@ -67,10 +68,10 @@
             <v-col> Side a = {{ sideA.toFixed(2) }}m </v-col>
           </v-row>
           <v-row>
-            <v-col> Angle B = {{ angleB.toFixed(2) }}deg </v-col>
+            <v-col> Angle B = {{ angleB.toFixed(2) }}° </v-col>
           </v-row>
           <v-row>
-            <v-col> Angle C = {{ angleC.toFixed(2) }}deg </v-col>
+            <v-col> Angle C = {{ angleC.toFixed(2) }}° </v-col>
           </v-row>
           <v-row>
             <v-col>
