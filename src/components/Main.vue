@@ -31,7 +31,8 @@
             </v-col>
             <v-col cols="6">
               <v-text-field
-                v-model.number="angleA2"
+                v-model="angleA2"
+                @change="angleA2 = Number(angleA2)"
                 label="Angle A₂"
                 type="number"
                 required
@@ -41,7 +42,8 @@
           <v-row>
             <v-col cols="6">
               <v-text-field
-                v-model.number="sideB"
+                v-model="sideB"
+                @change="sideB = Number(sideB)"
                 label="Side b"
                 type="number"
                 required
@@ -49,7 +51,8 @@
             </v-col>
             <v-col cols="6">
               <v-text-field
-                v-model.number="sideC"
+                v-model="sideC"
+                @change="sideC = Number(sideC)"
                 label="Side c"
                 type="number"
                 required
