@@ -77,7 +77,7 @@
         <v-expansion-panels>
           <v-expansion-panel title="Calculations">
             <v-expansion-panel-text class="text-left">
-              <Diagram />
+              <Diagram :a1-negative="angleA1 < 0" />
               <MathCalcs
                 :angle-a1="angleA1"
                 :angle-a2="angleA2"

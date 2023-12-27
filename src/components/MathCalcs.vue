@@ -322,6 +322,8 @@
         </mtd>
         <mtd><mo>=</mo></mtd>
         <mtd>
+          <mi>X</mi>
+          <mo>=</mo>
           <msub>
             <mi>A</mi>
             <mi>1</mi>
@@ -371,19 +373,18 @@
       <mtr>
         <mtd>
           <mo>∴</mo>
-          <mi>G</mi>
+          <mi>X</mi>
         </mtd>
         <mtd><mo>=</mo></mtd>
         <mtd>
           <mn>180</mn>
-          <mo>-(</mo>
+          <mo>-</mo>
           <msub>
             <mi>A</mi>
             <mi>2</mi>
           </msub>
-          <mo>+</mo>
+          <mo>-</mo>
           <mi>B</mi>
-          <mo>)</mo>
         </mtd>
       </mtr>
       <mtr>
@@ -415,7 +416,7 @@
         <mtd><mo>=</mo></mtd>
         <mtd>
           <mi>tan(</mi>
-          <mi>G</mi>
+          <mi>X</mi>
           <mi>)</mi>
         </mtd>
       </mtr>
